@@ -8,3 +8,4 @@ sudo apt install caddy
 
 sudo cat Caddyfile_template > /etc/caddy/Caddyfile
 
+echo "Caddy installed successfully."
