@@ -1,0 +1,13 @@
+Host github.com
+  HostName github.com
+  User git
+  IdentityFile /home/azureuser/.ssh/id_rsa
+  IdentitiesOnly yes
+
+Host github.com-backend
+  HostName github.com
+  User git
+  IdentityFile /home/azureuser/.ssh/backend-ssh
+  IdentitiesOnly yes
+
+
